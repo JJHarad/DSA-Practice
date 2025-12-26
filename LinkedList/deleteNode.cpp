@@ -38,9 +38,9 @@ public:
 
 // Driver code
 int main() {
-    Node* head = new Node(1);
-    head->next = new Node(2);
-    head->next->next = new Node(3);
+    Node* head = new Node(0);
+    head->next = new Node(1);
+    head->next->next = new Node(2);
 
     Solution obj;
     head = obj.deleteTail(head);
